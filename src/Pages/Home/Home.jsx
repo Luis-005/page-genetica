@@ -141,6 +141,10 @@ export const Home = () => {
             VARIABILIDAD DEL BAGRE RAYADO
               <button>Descargar PDF</button>
             </a>
+            <a href="/Estructura-genética-capibaras.pdf" download>
+            ESTRUCTURA GÉNETICA DE CAPIBARAS
+              <button>Descargar PDF</button>
+            </a>
           </div>
         </section>
         <footer className="section-contacme">
