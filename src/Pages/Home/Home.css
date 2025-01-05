@@ -1,0 +1,340 @@
+.section-Introduction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30rem;
+    background-image: url('/genetica.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.section-Introduction > h1{
+    font-size: 4rem;
+    color: white;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.section-Introduction h2,
+.section-Introduction h3 {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.section-description{
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-description > div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-description > div > p{
+    width: 80%;
+    font-size: 1.2rem;
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6; 
+}
+.section-description > div > img{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
+
+
+.section-object{
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-object > div{
+    width: 80%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 2rem;
+}
+.section-object > div > h2{
+    font-size: 1.8rem;
+}
+.section-object > div:nth-child(1) > p{
+    font-size: 1.2rem;
+}
+.box-object-cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.section-justification{
+    width: 100%;
+    height: 30rem;
+    background-color: #232F32;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.section-justification > div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-justification > div > img{
+    width: 85%;
+    height: 85%;
+    object-fit: cover;
+}
+.section-justification > div > p{
+    width: 80%;
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    line-height: 1.6; 
+}
+
+
+
+.section-matrices{
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-matrices > div{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+.section-articles{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section-articles > h2{
+    width: 82%;
+    text-align: start;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section-articles > div{
+    width: 80%;
+    height: 50%;
+    display: flex;
+    justify-content: start76;
+    align-items: center;
+    gap: 2rem;
+}
+.section-articles > div > a{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 1rem;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+.section-articles > div > a > button{
+    width: 150px;
+    height: 2rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #232F32;
+    color: white;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.section-articles > div > a > button:hover{
+    transform: scaleY(1.1);
+}
+
+
+.section-contacme{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    gap: 2rem;
+    color: #ffffffff;
+    background-color: #232F32;
+}
+
+
+
+
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+    .section-Introduction {
+        height: 20rem;
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .section-Introduction > h1 {
+        font-size: 2.5rem;
+    }
+
+    .section-Introduction h2,
+    .section-Introduction h3 {
+        font-size: 1.5rem;
+    }
+
+    .section-description {
+        height: auto;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .section-description > div {
+        width: 100%;
+        height: auto;
+    }
+
+    .section-description > div > p {
+        width: 100%;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .section-description > div > img {
+        width: 90%;
+        height: auto;
+    }
+
+    .section-object {
+        height: auto;
+        padding: 1rem;
+    }
+
+    .section-object > div {
+        width: 100%;
+        height: auto;
+        align-items: center;
+    }
+
+    .section-object > div > h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .section-object > div:nth-child(1) > p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .box-object-cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .section-justification {
+        height: auto;
+        padding: 1rem;
+        flex-direction: column;
+    }
+
+    .section-justification > div {
+        width: 100%;
+        height: auto;
+    }
+
+    .section-justification > div > img {
+        width: 100%;
+        height: auto;
+    }
+
+    .section-justification > div > p {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .section-matrices {
+        height: auto;
+        flex-direction: column;
+        padding: 1rem;
+        gap: 2rem;
+    }
+
+    .section-matrices > div {
+        width: 100%;
+        height: auto;
+    }
+
+    .section-articles {
+        height: auto;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .section-articles > h2 {
+        width: 100%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .section-articles > div {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .section-articles > div > a {
+        text-align: center;
+        width: 100%;
+    }
+
+    .section-articles > div > a > button {
+        width: 100%;
+        height: 2.5rem;
+    }
+
+    .section-contacme {
+        height: auto;
+        padding: 1rem;
+        flex-direction: column;
+        font-size: 1rem;
+    }
+}
+
